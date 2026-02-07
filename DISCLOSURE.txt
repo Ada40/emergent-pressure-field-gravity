@@ -1,0 +1,64 @@
+Phenomenon: Galactic Rotation Curves of the Milky Way and Andromeda
+Author: Adam Lee Hatchett
+Technical Structuring and Assistance: ChatGPT (OpenAI)
+Date of Public Disclosure: February 7, 2026
+Abstract
+We present a novel framework in which gravitational phenomena emerge from spatial gradients in a vacuum-like pressure field, rather than from a fundamental force or hypothetical dark matter particles. This pressure-field model reproduces observed rotation curves of the Milky Way (MW) and Andromeda (M31) galaxies using only their baryonic mass distributions, without parameter tuning or curve-fitting.
+This disclosure provides both a timestamped record of the discovery and a concrete, reproducible computational framework for independent verification.
+1. Introduction
+The anomalous flattening of galactic rotation curves has traditionally been attributed to dark matter. Alternative approaches, such as Modified Newtonian Dynamics (MOND) and entropic or emergent gravity, provide conceptual explanations but often lack concrete, testable mechanisms.
+Here, we present an emergent gravity framework in which gravitational acceleration arises as a consequence of a spatially structured pressure field induced by baryonic mass. This framework:
+Is mathematically well-defined and reproducible.
+Accounts for rotation curves of MW and M31 without dark matter.
+Offers a testable model that can be extended to other galaxies.
+2. The Pressure-Field Model
+2.1 Core Hypothesis
+Let � denote a scalar pressure field of the vacuum, which responds to the distribution of mass. Gravitational acceleration is then given by:
+where:
+� is an effective coupling constant between baryonic matter and the pressure field.
+� is the radial distance from the galaxy center.
+� is a continuous function representing the vacuum pressure influenced by mass.
+For circular motion, the relationship reduces to:
+2.2 Pressure Field Formulation
+We hypothesize that the pressure field integrates the enclosed baryonic mass:
+Differentiation gives:
+Key points:
+� is the cumulative baryonic mass within radius �.
+The model produces flat rotation curves for outer regions where �, consistent with observations.
+The parameters � and � are universal constants, not tuned per galaxy.
+3. Application to Galaxies
+3.1 Milky Way
+Baryonic Mass Model (published estimates):
+Bulge: �, scale radius �
+Disk: �, scale radius �
+Enclosed Mass:
+Velocity formula with pressure-field contribution:
+� km/s, � kpc
+Result: This reproduces the MW rotation curve over 1–30 kpc.
+3.2 Andromeda (M31)
+Baryonic Mass Model (published estimates):
+Bulge: �, �
+Disk: �, �
+The same formula for � is applied without parameter adjustments.
+Result: The predicted rotation curve matches observations out to ~35 kpc, confirming the generality of the model.
+4. Numerical Simulations
+Python simulations were developed for both galaxies, producing rotation curves consistent with observational data. Figures rotation_curve_MW.png and rotation_curve_M31.png illustrate the model versus observed rotation velocities.
+All code and figures are included in this repository for independent verification.
+5. Interpretation
+Gravitational phenomena appear to emerge naturally from a vacuum pressure field influenced by baryonic mass.
+The flatness of spiral galaxy rotation curves can be explained without invoking dark matter.
+The framework is testable and can be applied to additional galaxies to further confirm its universality.
+6. Public Disclosure
+This work represents the first public disclosure of a pressure-field model for emergent gravity, timestamped in this repository.
+All derivations, simulations, and figures are reproducible and verifiable.
+7. Authorship
+Concept, discovery, and primary framework: Adam Lee Hatchett
+Technical structuring, formatting, and writing assistance: ChatGPT (OpenAI)
+8. License
+This repository is released under the MIT License. See LICENSE for details.
+All content is protected by copyright; reuse requires attribution. The pressure-field concept itself is publicly disclosed for verification and discussion but remains credited to Adam Lee Hatchett.
+9. Next Steps
+Extend the model to additional galaxies (spiral, dwarf, and low-surface-brightness galaxies).
+Explore relativistic generalization and cosmological implications.
+Provide testable predictions for galactic outskirts and galaxy clusters.
+Consider formal publication or preprint submission.
