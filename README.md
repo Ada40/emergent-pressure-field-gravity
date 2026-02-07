@@ -110,3 +110,22 @@ Python simulations of both galaxies produce rotation curves that match observati
 ```python
 # Placeholder: full Python code for Milky Way and Andromeda rotation curves
 # See milky_way_rotation.py and andromeda_rotation.py for exact scripts
+```
+
+---
+
+## 4. Repository Scripts
+
+### hello.py
+
+A simple greeting script included in the repository:
+
+```bash
+python3 hello.py
+```
+
+or
+
+```bash
+./hello.py
+```
